@@ -133,7 +133,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {"API_KEY":"c4141f3984fa46acbcbb9c30531b8eaa"}
+      env: {}
     }
     // Only set once
     if (context.req) {

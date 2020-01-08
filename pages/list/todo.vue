@@ -22,8 +22,10 @@ export default {
 	},
 	methods: {
 		onClickTest() {
+			console.log(this.user)
 			let uri = 'http://localhost:4000/users/user'
 				axios.post(uri, this.user).then(() => {
+					
 			})
 		}
 	}

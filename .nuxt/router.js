@@ -3,8 +3,8 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _40c542e2 = () => interopDefault(import('..\\pages\\list\\todo.vue' /* webpackChunkName: "pages_list_todo" */))
-const _2db84e44 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _2d44177d = () => interopDefault(import('..\\pages\\list\\todo.vue' /* webpackChunkName: "pages_list_todo" */))
+const _1530766e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -24,11 +24,11 @@ export const routerOptions = {
 
   routes: [{
     path: "/list/todo",
-    component: _40c542e2,
+    component: _2d44177d,
     name: "list-todo"
   }, {
     path: "/",
-    component: _2db84e44,
+    component: _1530766e,
     name: "index"
   }],
 
